@@ -32,6 +32,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            driaug/plunk:${{ env.VERSION }}
-            driaug/plunk:latest
+            mjanderson1227/plunk:${{ env.VERSION }}
+            mjanderson1227/plunk:latest
           platforms: linux/amd64,linux/arm64
